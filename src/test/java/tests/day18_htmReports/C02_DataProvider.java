@@ -6,10 +6,7 @@ import org.testng.annotations.Test;
 import pages.AmazonPage;
 import utilities.ConfigReader;
 import utilities.Driver;
-import utilities.ReusableMethods;
-
 import static org.testng.AssertJUnit.*;
-
 public class C02_DataProvider {
     @DataProvider
     public static Object[][] AmazonAranacakKelimeler(){
