@@ -9,8 +9,8 @@ import utilities.ReusableMethods;
 public class C03_SwitchingWindows {
 
     @Test
-    public void test01(){
-
+    public void test01() throws InterruptedException {
+Thread.sleep(2);
         // https://the-internet.herokuapp.com/iframe adresine gidin
         Driver.getDriver().get("https://the-internet.herokuapp.com/iframe");
         // elemental selenium linlkine tiklayin

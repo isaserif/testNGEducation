@@ -12,8 +12,7 @@ public class C03_DataProviderIleNegativeTesti {
     @DataProvider
     public static Object[][] kullanıcıBilgileri() {
 
- Object[][] kullaniciBilgileriArr={{"A11","A12345"},{"B12","B12345"},{"D14","D12345"},{"C13","C12345"},{"E15","E12345"}};
-        return kullaniciBilgileriArr;
+        return new Object[][]{{"A11","A12345"},{"B12","B12345"},{"D14","D12345"},{"C13","C12345"},{"E15","E12345"}};
     }
     //Qualtydemy anasayfaya gidin
     // verilen yanlıs kullanıcı adi ve password kombinasyonları alın
